@@ -136,6 +136,7 @@ INTERNAL_IPS = ['127.0.0.1']
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
 STATIC_URL = 'static/'
+STATIC_ROOT = BASE_DIR / 'staticfiles'  # Added STATIC_ROOT setting
 STATICFILES_DIRS = [
     BASE_DIR / 'theme/static',
 ]
